@@ -1,20 +1,9 @@
-l = []
+#list comprehension
 
-num_1 = 1
+list = [num for num in range(100)]
 
-while num_1 <= 100:
-    l.append(num_1)
-    num_1 += 1
-print(l);
+print(list)
 
-ll = []
-for num_2 in range(100):
-    ll.append(num_2)
+evenNumbers = [num*2 for num in range(100)]
 
-print(ll);
-
-lll = []
-for num_3 in range(100):
-    lll.append(num_3+1)
-
-print(lll);
+print(evenNumbers)
