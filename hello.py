@@ -1,9 +1,11 @@
-#name = input("What is your name?")
-#print("hello " + name.title() + ", how's going?")
+counter = 0
 
-
-num1 = int(23)
-num2 = int(24)
-
-print("Total:"+ str(num1+num2))
-
+for number in range(1, 10):
+    #print(number)
+    if(number % 2 == 0):
+      print(number, "This number is Even")
+      counter += 1
+    else:
+      print(number, "This number is Odd")
+     
+print("Total Even number count is", counter)
